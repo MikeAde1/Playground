@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="InputEditText">
+        <attr name="xssProtection" format="boolean" />
+        <attr name="kieInputBehaviour" format="enum">
+            <enum name="freeEntry" value="0" />
+            <enum name="password" value="1" />
+            <enum name="dropdown" value="2" />
+            <enum name="currency" value="3" />
+        </attr>
+        <attr name="kieCurrencySymbol" format="string" />
+        <attr name="kieLocaleTag" format="string" />
+        <attr name="kieUseCurrencySymbolAsHint" format="boolean" />
+        <attr name="kieTitleText" format="string" />
+        <attr name="kieErrorText" format="string" />
+        <attr name="kieTopRightText" format="string" />
+        <attr name="kieTopRightTextColor" format="reference|color" />
+        <attr name="kieTopRightTextFontFamily" format="string" />
+        <attr name="kieError" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="InputCurrencyEditText">
+        <attr name="currencySymbol" format="string" />
+        <attr name="localeTag" format="string" />
+        <attr name="useCurrencySymbolAsHint" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="InputEditTextV2">
+        <attr name="android:inputType" />
+        <attr name="android:maxLength" />
+        <attr name="android:hint" />
+        <attr name="floatingLabel" format="string" />
+        <attr name="errorText" format="string" />
+        <attr name="showCount" format="boolean" />
+    </declare-styleable>
+</resources>
